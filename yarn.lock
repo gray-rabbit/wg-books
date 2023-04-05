@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@babylonjs/core@^5.53.0":
+  version "5.53.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-5.53.0.tgz#fa2ed1a9f1938046fb7142cfd6d0b812a0c09165"
+  integrity sha512-Uxyc8QOYMrj2yTZS3qo7ftBSF5jX/5AV+g9egnyam0orlZhPqvtd9x+bRACdpEQ3SfOPdPgVD+UxxjCVaYVA5g==
+
+"@babylonjs/inspector@^5.53.0":
+  version "5.53.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/inspector/-/inspector-5.53.0.tgz#107b29cdaa06ee7ab0be76851052c17a804ea104"
+  integrity sha512-Poq2rl/N+ciFArSlS4ZadnSqdH6iwWGqlT49JvEa/ZzcWQ7GpuoK4TcReZ7SUawNsQ1gP5UIyPGQp2u9bQ3W8A==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^6.1.0"
+    "@fortawesome/free-regular-svg-icons" "^6.0.0"
+    "@fortawesome/free-solid-svg-icons" "^6.0.0"
+
 "@esbuild/android-arm64@0.17.15":
   version "0.17.15"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.15.tgz#893ad71f3920ccb919e1757c387756a9bca2ef42"
@@ -148,6 +162,32 @@
   version "4.5.10"
   resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.10.tgz#443be4b2b4fc6e685b88431fcfdaf8d5f5639bbf"
   integrity sha512-bxUnRP8xptGRo8YXeY073DSpfK74XpSb0ZyRNpHV9WvLnJ7TwPOjZll8hTMin7zLC6iOp59pDZ8EQDj1gzgAQQ==
+
+"@fortawesome/fontawesome-common-types@6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.4.0.tgz#88da2b70d6ca18aaa6ed3687832e11f39e80624b"
+  integrity sha512-HNii132xfomg5QVZw0HwXXpN22s7VBHQBv9CeOu9tfJnhsWQNd2lmTNi8CSrnw5B+5YOmzu1UoPAyxaXsJ6RgQ==
+
+"@fortawesome/fontawesome-svg-core@^6.1.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.4.0.tgz#3727552eff9179506e9203d72feb5b1063c11a21"
+  integrity sha512-Bertv8xOiVELz5raB2FlXDPKt+m94MQ3JgDfsVbrqNpLU9+UE2E18GKjLKw+d3XbeYPqg1pzyQKGsrzbw+pPaw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-regular-svg-icons@^6.0.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.4.0.tgz#cacc53bd8d832d46feead412d9ea9ce80a55e13a"
+  integrity sha512-ZfycI7D0KWPZtf7wtMFnQxs8qjBXArRzczABuMQqecA/nXohquJ5J/RCR77PmY5qGWkxAZDxpnUFVXKwtY/jPw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
+"@fortawesome/free-solid-svg-icons@^6.0.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.4.0.tgz#48c0e790847fa56299e2f26b82b39663b8ad7119"
+  integrity sha512-kutPeRGWm8V5dltFP1zGjQOEAzaLZj4StdQhWVZnfGFCvAPVvHh8qk5bRrU4KXnRRRNni5tKQI9PBAdI6MP8nQ==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -437,6 +477,11 @@ autoprefixer@^10.4.7:
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
+
+babylonjs@^5.53.0:
+  version "5.53.0"
+  resolved "https://registry.yarnpkg.com/babylonjs/-/babylonjs-5.53.0.tgz#1b1606e93cda086eb9b090af08088482b4bd46e7"
+  integrity sha512-7P+7h+GZAaB9O0Niphc9OWHh9iDePzgUuY2J2P+feLHKJLLL/D13guZ0lh1ScvMWKVv5tcXLP1LXAiSkBfIVrA==
 
 balanced-match@^1.0.0:
   version "1.0.2"
