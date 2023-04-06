@@ -39,6 +39,7 @@
 	"dependencies": {
 		"@babylonjs/core": "^5.53.0",
 		"@babylonjs/inspector": "^5.53.0",
-		"babylonjs": "^5.53.0"
+		"babylonjs": "^5.53.0",
+		"pocketbase": "^0.13.1"
 	}
 }
