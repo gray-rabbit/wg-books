@@ -110,7 +110,11 @@
 		</div>
 		<div class="flex">
 			{#each stData.filter((i) => i.grade === grade && i.classNum === classNum) as st}
-				<button class="btn btn-primary m-2" on:click={() => (name = st.name)}>{st.name}</button>
+				<button
+					class:btn-accent={st.name === name}
+					class="btn btn-primary m-2"
+					on:click={() => (name = st.name)}>{st.name}</button
+				>
 			{/each}
 		</div>
 		{#if name !== ''}
